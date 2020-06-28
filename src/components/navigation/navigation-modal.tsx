@@ -29,7 +29,7 @@ export function NavigationModal(props: Props) {
 					className={`navigation-modal__content ${props.isOpen ? 'navigation-modal__content--is-open' : ''}`}
 					style={{left: paddingLeft && paddingLeft + 140 + 'px'}}
 				>
-					<Brand /> 
+					<Brand modal/> 
 					<NavigationMenu />
 				</div>
 			</div>

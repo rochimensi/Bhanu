@@ -1,0 +1,28 @@
+@import 'styles/variables';
+@import 'styles/shared';
+
+.hero {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .svg-container {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.hero .brand-container {
+  position: relative;
+  text-align: center;
+}
+
+.hero .brand {
+  margin-top: 3rem;
+  line-height: 1;
+}

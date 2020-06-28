@@ -1,13 +1,41 @@
 @import '../styles/fonts';
 
+.brand--modal {
+  .brand__title {
+    font-size: $font-size-medium;
+  }
+  
+  .brand__subtitle {
+    font-size: $font-size-medium;
+  }
+}
+
+.brand--header {
+  .brand__title {
+    font-size: $font-size-medium;
+  }
+  
+  .brand__subtitle {
+    font-size: $font-size-medium;
+  }
+}
+
+.brand--hero {
+  .brand__title {
+    font-size: $font-size-xlarge;
+  }
+  
+  .brand__subtitle {
+    font-size: $font-size-medium;
+  }
+}
+
 .brand__title {
-  font-size: $h1;
   font-weight: $font-light;
   text-transform: uppercase;
 }
 
 .brand__subtitle {
-  font-size: $h1;
   font-weight: $font-light;
   font-style: italic;
 }

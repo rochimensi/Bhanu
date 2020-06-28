@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.scss';
 import { Navigation } from './components/navigation/navigation'
-import { Logo } from './views/logo'
+import { Header } from './components/header'
+import { Hero } from './views/hero'
 
 export class App extends React.Component {
   render() {
     return (
       <>
         <Navigation/>
-        {/* <Logo />
-        <h1>Bhanu</h1> */}
+        {/* <Header /> */}
+        <Hero /> 
+        {/* <div style={{backgroundColor: 'white'}}> */}
+        <p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+        {/* </div> */}
       </>
     )
   }
