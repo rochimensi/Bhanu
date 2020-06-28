@@ -1,0 +1,10 @@
+@import 'styles/variables';
+
+$hamburger-layer-width         : 40px;
+$hamburger-layer-height        : 1px;
+$hamburger-layer-color         : $color;
+$hamburger-layer-border-radius : 4px;
+$hamburger-layer-spacing       : 10px;
+$hamburger-active-layer-color  : $main-color;
+
+@import 'node_modules/hamburgers/_sass/hamburgers/hamburgers.scss'

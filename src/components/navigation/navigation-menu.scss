@@ -1,0 +1,46 @@
+@import '../styles/variables';
+@import '../styles/fonts';
+
+.navigation-modal__content__menu {
+  padding-top: 15rem;
+  font-size: $font-size-navigation-link;
+  font-weight: $font-regular;
+
+  @media screen and (max-width: $tablet-max-width) {
+    font-size: $font-size-navigation-link--mobile;
+  }
+}
+
+.navigation-modal__content__list-item {
+  letter-spacing: -0.168vw;
+  width: 25vw;
+  cursor: pointer;
+  
+  &:hover {  
+    color: $main-color;
+    font-style: italic;
+  }
+
+  &--active {
+    align-items: center;
+    display: inline-flex;
+    color: $main-color;
+
+    @media screen and (max-width: $tablet-max-width) {
+      justify-content: center;
+    }
+  }
+
+  &--active:before {
+    content: '';
+    height: 1px;
+    width: 3.75vw;
+    margin-right: 0.2vw;
+    display: inline-block;
+    background: $main-color;
+  }
+
+  @media screen and (max-width: $tablet-max-width) {
+    width: 100%;
+  }
+}

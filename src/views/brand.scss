@@ -1,0 +1,13 @@
+@import '../styles/fonts';
+
+.brand__title {
+  font-size: $h1;
+  font-weight: $font-light;
+  text-transform: uppercase;
+}
+
+.brand__subtitle {
+  font-size: $h1;
+  font-weight: $font-light;
+  font-style: italic;
+}
