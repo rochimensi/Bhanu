@@ -11,10 +11,17 @@
 
 .hero .svg-container {
   position: absolute;
-  bottom: -10px;
   left: 0;
   right: 0;
   display: block;
+
+  &--top {
+    bottom: -10px;
+  }
+
+  &--bottom {
+    top: 300px;
+  }
 }
 
 .hero .brand-container {

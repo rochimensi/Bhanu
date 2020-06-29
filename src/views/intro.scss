@@ -1,0 +1,10 @@
+@import "../styles/fonts";
+@import "../styles/variables";
+
+.intro {
+  padding: 15%;
+  text-align: center;
+  font-size: $font-size-large;
+  font-weight: $font-light;
+  font-style: italic;
+}
