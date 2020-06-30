@@ -1,0 +1,28 @@
+@import 'styles/variables';
+@import 'styles/fonts';
+@import 'styles/animations';
+
+.vertical-line-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  left: -10%;
+  animation: slide-right 3s ease;
+  margin-bottom: 2%;
+
+  @media screen and (max-width: $tablet-max-width) {
+    display: none;
+  }
+}
+
+.vertical-line-label__line {
+  height: 2px;
+  width: 300px;
+  background-color: $main-color;
+}
+
+.vertical-line-label__label {
+  font-size: $font-size-xsmall;
+  margin-left: 1rem;
+}

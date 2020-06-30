@@ -1,36 +1,12 @@
 @import 'styles/variables';
 @import 'styles/fonts';
 
-body {
-  margin: 0;
-  font-family: $font-family;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: $body-background-color;
-  color: $color;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  list-style: none;
-  box-sizing: border-box;
-  border-collapse: inherit;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  font-kerning: none;
-  -webkit-text-rendering: optimizeSpeed;
-  text-rendering: optimizeSpeed;
-}
-
 ::selection {
   opacity: 1;
   color: #fff;
   background: $main-color;
 }
 
+@import 'styles/reset';
 @import 'styles/base';
 @import 'styles/animations';

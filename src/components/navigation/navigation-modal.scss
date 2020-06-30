@@ -1,7 +1,9 @@
 @import  '../styles/variables';
+@import  '../styles/fonts';
 
 .navigation-modal {
   display: flex;
+  font-family: $font-family-titles;
 }
 
 .navigation-modal__navigator {

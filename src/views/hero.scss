@@ -1,7 +1,9 @@
 @import 'styles/variables';
 @import 'styles/shared';
+@import  'styles/fonts';
 
 .hero {
+  font-family: $font-family-titles;
   height: 80vh;
   position: relative;
   display: flex;
@@ -24,9 +26,23 @@
   }
 }
 
+.brand__parallax__container {
+  width: 100%;
+}
+
 .hero .brand-container {
   position: relative;
   text-align: center;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: #ffffff2e;
+  // border-radius: 8px;
+
+  @media screen and (max-width: $tablet-max-width) {
+    background-color: transparent;
+  }
 }
 
 .hero .brand {

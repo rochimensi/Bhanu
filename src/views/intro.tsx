@@ -4,7 +4,7 @@ import './intro.scss'
 export function Intro() {
   return (
     <div className="intro">
-      <span>Belleza Integral y el Bienestar del SER</span>
+      <span>Belleza Integral y Bienestar del SER</span>
     </div>
   )
 }

@@ -1,3 +1,29 @@
+.slide-left {
+  animation: slide-left 2s ease;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(3000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-right {
+  animation: slide-right 2s ease;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-3000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .slide-down {
   animation: slide-down 1.5s ease;
 }
@@ -34,5 +60,14 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes expand {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: fit-content;
   }
 }

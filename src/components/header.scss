@@ -1,16 +1,50 @@
+@import 'styles/fonts';
+@import 'styles/variables';
+
 .header {
+  z-index: 1;
+  padding-top: 2.5rem;
+  line-height: 2rem;
+  position: relative;
+  padding-left: 22%;
+  padding-right: 22%;
+  font-weight: $font-light;
+  font-size: $font-size-header;
+  animation: header-slide-in 1s ease;
+
+  @media screen and (max-width: $tablet-max-width) {
+    display: none;
+  }
+}
+
+@keyframes header-slide-in {
+  0% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header__content__list {
   display: flex;
   align-items: center;
-  padding-top: 1.65rem;
-  line-height: 2.5rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.header .logo {
-  width: 100px;
-  height: 100px;
-}
+.header__content__list-item a {
+  cursor: pointer;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $main-color;
+    transition: width .3s;
+  }
 
-.header .brand {
-  padding-left: 1.25rem;
+  &:hover::after {
+    width: 100%;
+  }
 }
