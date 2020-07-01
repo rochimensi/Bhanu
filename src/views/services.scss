@@ -1,0 +1,29 @@
+@import 'styles/variables';
+@import  'styles/fonts';
+
+.homepage-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homepage-services__summary {
+  width: 40%;
+  margin-right: 10%;
+  font-family: $font-family-titles;
+
+  h2 {
+    font-size: $h2;
+    line-height: 1;
+  }
+
+  ul {
+    margin-top: 2rem;
+    font-size: $font-size-small;
+    text-align: end;
+  }
+}
+
+.homepage-services__carousel {
+  width: 50%;
+}
