@@ -3,9 +3,43 @@
 
 .intro {
   padding: 15%;
+  padding-bottom: 5%;
   text-align: center;
-  font-size: $font-size-large;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.intro__text {
+  position: relative;
+  margin-top: -175px;
+  width: 75%;
+  background-color: white;
+  padding: 2%;
+  font-size: $font-size-medium;
   font-weight: $font-light;
-  font-style: italic;
+  font-family: $font-family-brand;
+}
+
+.intro__title {
+  text-align: start;
+  display: block;
+}
+
+.intro__subtitle {
+  margin-top: $font-size-medium;
+  display: block;
   font-family: $font-family-titles;
+  text-align: end;
+}
+
+.intro__text__wrapper {
+  padding: 14% 7%;
+  border: 4px solid $main-color;
 }

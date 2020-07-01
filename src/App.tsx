@@ -10,17 +10,18 @@ import { Divider } from './views/divider';
 import { LineLabel } from './views/line-label';
 
 export class App extends React.Component {
+
   render() {
     return (
       <>
         <Navigation/>
         <Header />
         <Hero />
-        <LineLabel text="Mar del Plata - AR" top="50%" width="300px"/>
-        <LineLabel text="Turnos +54 223 6873919" top="54%" width="350px" />
+        {/* <LineLabel text="Mar del Plata - AR" top="87%" width="200px"/>
+        <LineLabel text="Turnos +54 223 6873919" top="90%" width="250px" /> */}
         <Section>
           <Intro />
-          <Carousel />
+          {/* <Carousel /> */}
         </Section>
         <Divider />
         <Section className="section--about">

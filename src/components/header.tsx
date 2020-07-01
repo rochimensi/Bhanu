@@ -5,13 +5,15 @@ import './header.scss'
 export function Header() {
   return (
     <div className="header">
-      <ul className="header__content__list">
-        <li className="header__content__list-item"><a>Home</a></li>
-        <li className="header__content__list-item"><a>Quiénes Somos</a></li>
-        <li className="header__content__list-item"><a>Servicios</a></li>
-        <li className="header__content__list-item"><a>Capacitaciones</a></li>
-        <li className="header__content__list-item"><a>Contacto</a></li>
-      </ul>
+      <div className="navigation-modal__content__menu">
+        <ul className="navigation-modal__content__list">
+          <li className="navigation-modal__content__list-item navigation-modal__content__list-item--active">Home</li>
+          <li className="navigation-modal__content__list-item">Quiénes Somos</li>
+          <li className="navigation-modal__content__list-item">Servicios</li>
+          <li className="navigation-modal__content__list-item">Capacitaciones</li>
+          <li className="navigation-modal__content__list-item">Contacto</li>
+        </ul>
+      </div>
     </div>
   )
 }

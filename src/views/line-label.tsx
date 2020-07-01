@@ -9,9 +9,9 @@ export interface Props {
 
 export function LineLabel(props: Props) {
   return (
-    <div className="vertical-line-label" style={{top: props.top}}>
-      <div className="vertical-line-label__line" style={{width: props.width}}></div>
-      <span className="vertical-line-label__label">{props.text}</span>
+    <div className="line-label" style={{top: props.top}}>
+      <div className="line-label__line" style={{width: props.width}}></div>
+      <span className="line-label__label">{props.text}</span>
     </div>
   )
 }
